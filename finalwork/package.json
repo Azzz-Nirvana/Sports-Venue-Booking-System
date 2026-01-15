@@ -1,0 +1,25 @@
+{
+  "name": "sports-venue-system",
+  "version": "1.0.0",
+  "description": "体育场馆预约管理系统 - 数据库课程大作业",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "npx concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "sports",
+    "venue",
+    "reservation",
+    "database"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
